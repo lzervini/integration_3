@@ -27,22 +27,37 @@ a{
     color: var(--title-color)
 }
 
+/* Barre de navigation */
 nav p{
     font-weight: 900;
     color: var(--title-color);
     margin-left: 0.4rem;
 }
 
+nav p span{
+    margin-left: 0.9375rem;
+}
+
 
 /* Style de texte */
+
 .nuni-16{
     font-size: 1rem ;
 }
+
 .pop50bold{
     font-family:"Poppins";
     font-weight: 700;
     font-size: 3.75rem;
-    color: var(--title-color)
+    color: var(--title-color);
+    margin-bottom: 0;
+}
+
+.pop20bold{
+    font-family:"Poppins";
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--title-color);
 }
 
 .view{
@@ -57,10 +72,21 @@ nav p{
     color: white;
 }
 
+.tiret-viol{
+    border-top: 3px solid #BA43FC;
+    width: 12%;
+    padding-top: 1.5625rem;
+    padding-bottom: 3px;
+}
+
 
 /* Margin */
 .margin-l{
     margin-left: 24.6875rem;
+}
+
+.margint310{
+    margin-top: 19.375rem;
 }
 
 /*Padding*/
@@ -82,10 +108,11 @@ nav p{
     justify-content: space-around;
 }
 
-/* float */
-.float-right{
-    float: right;
+.between{
+    justify-content: space-between;
 }
+
+
 
 /* forme 
 .ovale{
@@ -94,6 +121,10 @@ nav p{
     background: var(--form-color);
     border-radius: 336.5px;
     transform: rotate(45deg);
+}
+
+.float-right{
+    float: right;
 }
 */
 
@@ -109,3 +140,4 @@ nav p{
 section{
     width: 27.25rem;
 }
+
