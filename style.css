@@ -9,14 +9,21 @@ body{
     list-style: none;
 }
 
+/* Liens */
 a{
     text-decoration: none;
+    
+}
+
+.lien:hover{
+    border-image: linear-gradient(#6852ED, #BA43FC);
 }
 
 nav p{
     font-weight: 900;
     color: var(--title-color);
     margin-left: 0.4rem;
+
 }
 
 
@@ -45,3 +52,25 @@ nav p{
     align-items: center;
 }
 
+
+/* Barre de recherche */
+.recherche {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    height: 2.5em;
+  }
+
+  .recherche input[type=submit] {
+    float: right;
+    background: url(loupe.png);
+    border-radius: 1em;
+    width: 2em;
+    height: 2em;
+  }
+
+  .recherche input[type=search] {
+    border: 0;
+    background: none;
+    overflow: hidden;
+    line-height: 2em;
+  }
