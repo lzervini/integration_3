@@ -7,16 +7,6 @@ body{
     --degrade: linear-gradient(to right, #6852ED, #BA43FC)
 }
 
-.espace-gauche{
-    margin-left: 24.6875rem;
-}
-
-.esp-g-droite{
-    margin-left: 24.6875rem;
-    margin-right: 24.6875rem;
-
-}
-
 .list-style-none{
     list-style: none;
 }
@@ -49,6 +39,10 @@ nav p span{
 
 .nuni-16{
     font-size: 1rem ;
+}
+
+.nuni18{
+    font-size: 1.125rem;
 }
 
 .pop50bold{
@@ -85,6 +79,13 @@ nav p span{
     padding-bottom: 0.1875rem;
 }
 
+.pop30bold{
+    font-family:"Poppins";
+    font-weight: 700;
+    font-size: 1.875rem;
+    color: var(--title-color);
+}
+
 
 
 /* Margin */
@@ -103,6 +104,16 @@ nav p span{
 .txt-price{
     margin:3.4375rem 0 3.4375rem 4.25rem;
 }
+
+.esp-g-droite{
+    margin-left: 24.6875rem;
+    margin-right: 24.6875rem;
+}
+
+.espace-gauche{
+    margin-left: 24.6875rem;
+}
+
 
 /*Padding*/
 .paddinglist{
@@ -136,7 +147,15 @@ nav p span{
 }
 
 
-/* forme 
+/*forme*/
+.rond{
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 6.25rem;
+    background: var(--form-color);
+}
+
+/*
 .ovale{
     width:42.0625rem;
 	height:85.5625rem;
