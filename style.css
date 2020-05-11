@@ -3,6 +3,7 @@ body{
     font-size: 1.125rem ;
     color: #5B5766;
     --title-color: #554D89;
+    --form-color: #6852ED;
 }
 
 .list-style-none{
@@ -52,4 +53,16 @@ nav p{
     align-items: center;
 }
 
+.around{
+    justify-content: space-between;
+}
 
+
+/* forme */
+.ovale{
+    width:42.0625rem;
+	height:85.5625rem;
+    background: var(--form-color);
+    border-radius: 336.5px;
+    transform: rotate(45deg)
+}
