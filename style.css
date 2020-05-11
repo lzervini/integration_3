@@ -1,7 +1,7 @@
 body{
     font-family: "Nunito";
     font-size: 1.125rem ;
-    color: #716C80;
+    color: #5B5766;
     --title-color: #554D89;
 }
 
@@ -16,7 +16,9 @@ a{
 nav p{
     font-weight: 900;
     color: var(--title-color);
+    margin-left: 0.4rem;
 }
+
 
 /* Style de texte */
 .nuni-16{
@@ -27,3 +29,19 @@ nav p{
 .margin-l{
     margin-left: 24.6875rem;
 }
+
+/*Padding*/
+.paddinglist{
+    padding-left: 2.0625rem;
+}
+
+
+/* Flexbox */
+.dflex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
