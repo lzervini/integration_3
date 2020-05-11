@@ -11,6 +11,12 @@ body{
     margin-left: 24.6875rem;
 }
 
+.esp-g-droite{
+    margin-left: 24.6875rem;
+    margin-right: 24.6875rem;
+
+}
+
 .list-style-none{
     list-style: none;
 }
@@ -76,8 +82,9 @@ nav p span{
     border-top: 3px solid #BA43FC;
     width: 12%;
     padding-top: 1.5625rem;
-    padding-bottom: 3px;
+    padding-bottom: 0.1875rem;
 }
+
 
 
 /* Margin */
@@ -89,9 +96,21 @@ nav p span{
     margin-top: 19.375rem;
 }
 
+.m0{
+    margin:0;
+}
+
+.txt-price{
+    margin:3.4375rem 0 3.4375rem 4.25rem;
+}
+
 /*Padding*/
 .paddinglist{
     padding-left: 2.0625rem;
+}
+
+.padl28{
+    padding-left:1.75rem ;
 }
 
 
@@ -112,6 +131,9 @@ nav p span{
     justify-content: space-between;
 }
 
+.column{
+    flex-direction: column;
+}
 
 
 /* forme 
@@ -128,6 +150,7 @@ nav p span{
 }
 */
 
+/* bordures*/
 .button{
     border: 1px solid none;
     background: var(--degrade);
@@ -137,7 +160,37 @@ nav p span{
     padding: 0.75rem;
 }
 
+.best{
+    border: 1px solid #E1E4ED;
+    background: #E1E4ED;
+    border-radius: 0.8125rem;
+    font-family: "Poppins";
+    font-weight:500;
+    font-size: 0.625rem;
+    color: #EF7171;
+    padding: 0.3125rem 0.3125rem 0 0.3125rem;
+}
+
+.bordure{
+    border: 1px solid none;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.10);
+    border-radius:0.625rem;
+    width: 30%;
+    padding: 1.25rem;
+    margin-left: 1.875rem;
+}
+
 section{
     width: 27.25rem;
 }
 
+
+
+
+.b{
+    background-color: red;
+}
+
+.b1{
+    background-color: green;
+}
