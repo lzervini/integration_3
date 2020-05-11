@@ -2,4 +2,28 @@ body{
     font-family: "Nunito";
     font-size: 1.125rem ;
     color: #716C80;
+    --title-color: #554D89;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav p{
+    font-weight: 900;
+    color: var(--title-color);
+}
+
+/* Style de texte */
+.nuni-16{
+    font-size: 1rem ;
+}
+
+/* Margin */
+.margin-l{
+    margin-left: 24.6875rem;
 }
