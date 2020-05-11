@@ -53,24 +53,3 @@ nav p{
 }
 
 
-/* Barre de recherche */
-.recherche {
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    height: 2.5em;
-  }
-
-  .recherche input[type=submit] {
-    float: right;
-    background: url(loupe.png);
-    border-radius: 1em;
-    width: 2em;
-    height: 2em;
-  }
-
-  .recherche input[type=search] {
-    border: 0;
-    background: none;
-    overflow: hidden;
-    line-height: 2em;
-  }
