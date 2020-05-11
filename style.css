@@ -6,6 +6,10 @@ body{
     --form-color: #6852ED;
 }
 
+nav{
+    margin-left: 24.6875rem;
+}
+
 .list-style-none{
     list-style: none;
 }
@@ -32,6 +36,13 @@ nav p{
 .nuni-16{
     font-size: 1rem ;
 }
+.pop50bold{
+    font-family:"Poppins";
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: var(--title-color)
+}
+
 
 /* Margin */
 .margin-l{
@@ -54,15 +65,20 @@ nav p{
 }
 
 .around{
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
+/* float */
+.float-right{
+    float: right;
+}
 
-/* forme */
+/* forme 
 .ovale{
     width:42.0625rem;
 	height:85.5625rem;
     background: var(--form-color);
     border-radius: 336.5px;
-    transform: rotate(45deg)
+    transform: rotate(45deg);
 }
+*/
