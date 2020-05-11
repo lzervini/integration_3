@@ -4,10 +4,10 @@ body{
     color: #5B5766;
     --title-color: #554D89;
     --form-color: #6852ED;
-    --degrade: linear-gradient(to left, #6852ED, #BA43FC)
+    --degrade: linear-gradient(to right, #6852ED, #BA43FC)
 }
 
-nav{
+.espace-gauche{
     margin-left: 24.6875rem;
 }
 
@@ -17,8 +17,7 @@ nav{
 
 /* Liens */
 a{
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 .lien:hover{
@@ -32,7 +31,6 @@ nav p{
     font-weight: 900;
     color: var(--title-color);
     margin-left: 0.4rem;
-
 }
 
 
@@ -45,6 +43,18 @@ nav p{
     font-weight: 700;
     font-size: 3.75rem;
     color: var(--title-color)
+}
+
+.view{
+    font-size: 1rem;
+    color: var(--title-color);
+    margin-left: 30px;
+}
+
+.white{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: white;
 }
 
 
@@ -93,7 +103,9 @@ nav p{
     border-radius: 40px ;
     width: 12.9375rem;
     text-align: center;
-    color: white;
-    font-family: "Poppins";
+    padding: 0.75rem;
+}
 
+section{
+    width: 27.25rem;
 }
