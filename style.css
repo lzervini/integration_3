@@ -89,7 +89,12 @@ nav p span{
     color: var(--title-color);
 }
 
-
+.pop22bold{
+    font-family:"Poppins";
+    font-weight: 700;
+    font-size: 1.375rem;
+    color: var(--title-color);
+}
 
 /* Margin */
 .margin-l{
@@ -149,6 +154,11 @@ nav p span{
     flex-direction: column;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+
 
 /*forme*/
 .rond{
@@ -203,6 +213,17 @@ nav p span{
     margin-left: 1.875rem;
 }
 
+.bordure2{
+    border: 1px solid none;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.10);
+    border-radius:0.625rem;
+    padding: 6.1875rem 0 1.875rem 1.25rem;
+    margin-left: 1.875rem;
+    margin-top: 1.875rem;
+    width: 21.25rem;
+
+}
+
 section{
     width: 27.25rem;
 }
@@ -213,10 +234,13 @@ section{
 
 #comment section{
     width: 46.875rem;
-
 }
 
 
+#getasolut section {
+    width: 20.625rem;
+    margin-left: 3.75rem;
+}
 .b{
     background-color: red;
 }
