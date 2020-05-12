@@ -173,6 +173,13 @@ nav p span{
     margin-left: 43%;
 }
 
+.ovaletronque{
+    width: 651px;
+    height: 474px;
+    background: #E1E4ED;
+    border-radius: 237px 237px 237px 80px;
+}
+
 /*
 .ovale{
     width:42.0625rem;
@@ -278,3 +285,7 @@ section{
     background-color: green;
 }
 
+.imagetronque{
+    background-image: url(beoneofus.jpg);
+    background-repeat: no-repeat;
+}
