@@ -32,6 +32,7 @@ nav p{
 
 nav p span{
     margin-left: 0.9375rem;
+    letter-spacing: 0.05rem;
 }
 
 
@@ -122,6 +123,9 @@ nav p span{
     margin-left: 24.6875rem;
 }
 
+.margtop156{
+    margin-top: 9.75rem;
+}
 
 /*Padding*/
 .paddinglist{
@@ -217,7 +221,7 @@ nav p span{
     border: 1px solid none;
     box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.10);
     border-radius:0.625rem;
-    padding: 6.1875rem 0 1.875rem 1.25rem;
+    padding: 6.1875rem 0 0 1.25rem;
     margin-left: 1.875rem;
     margin-top: 1.875rem;
     width: 21.25rem;
@@ -241,6 +245,31 @@ section{
     width: 20.625rem;
     margin-left: 3.75rem;
 }
+
+/* Hover */
+.content{
+    display: none;
+    color: white;
+    font-family: "Poppins";
+    font-size: 1rem;
+}
+
+.bordure2:hover .content{
+    display: inline;
+}
+
+.bordure2:hover{
+    background: var(--degrade);
+    color: white;
+    padding-top: 0;
+
+}
+
+.bordure2:hover h2{
+    color:white;
+}
+
+
 .b{
     background-color: red;
 }
@@ -248,3 +277,4 @@ section{
 .b1{
     background-color: green;
 }
+
