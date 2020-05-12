@@ -67,7 +67,7 @@ nav p span{
 .view{
     font-size: 1rem;
     color: var(--title-color);
-    margin-left: 30px;
+    margin-right: 50px;
 }
 
 .white{
@@ -180,6 +180,12 @@ nav p span{
     border-radius: 237px 237px 237px 80px;
 }
 
+.imagetronque{
+    background-attachment: contain ;
+    background-image: url(beoneofus.jpg);
+    background-repeat: no-repeat;
+}
+
 /*
 .ovale{
     width:42.0625rem;
@@ -277,15 +283,11 @@ section{
 }
 
 
-.b{
+/*b{
     background-color: red;
 }
 
 .b1{
     background-color: green;
-}
+}*/
 
-.imagetronque{
-    background-image: url(beoneofus.jpg);
-    background-repeat: no-repeat;
-}
