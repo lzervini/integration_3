@@ -36,6 +36,9 @@ nav p span{
 
 
 /* Style de texte */
+.text-center{
+    text-align: center;
+}
 
 .nuni-16{
     font-size: 1rem ;
@@ -153,6 +156,7 @@ nav p span{
     height: 6.25rem;
     border-radius: 6.25rem;
     background: var(--form-color);
+    margin-left: 43%;
 }
 
 /*
@@ -203,7 +207,14 @@ section{
     width: 27.25rem;
 }
 
+#comment{
+    background-color: #E1E4ED;
+}
 
+#comment section{
+    width: 46.875rem;
+
+}
 
 
 .b{
