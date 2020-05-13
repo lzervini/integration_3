@@ -454,6 +454,49 @@ footer a:hover{
         margin-top: 6.25rem;    
     }
 
+    #price p:not(.avec){
+        display: none;
+    }
+
+    #price .button{
+        width: auto;
+    }
 
 
+    .tiret-viol{
+        border-top:0;
+        margin-top: 0;
+    }
+
+    #price header{
+        padding: 0;
+        margin: 0;
+    }
+
+    .bordure{
+        border: 1px solid none;
+        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.10);
+        border-radius:0.625rem;
+        width: 22%;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+.b{
+    background-color: blue;
+}
+.b1{
+    background-color: yellow;
+}
+.b2{
+    background-color: red;
+}
+.b3{
+    background-color: green;
 }
