@@ -286,8 +286,8 @@ a{
 }
 
 .imagetronque{
-    background-attachment: contain ;
     background-image: url(beoneofus.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
