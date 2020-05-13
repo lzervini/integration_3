@@ -393,35 +393,3 @@ footer a:hover{
     color: var(--pink-color);
 }
 
-
-
-
-
-
-.b{
-    background-color: red;
-}
-
-.b1{
-    background-color: green;
-}
-
-.b2{
-    background-color: yellow;
-}
-
-.b3{
-    background-color: blue;
-}
-
-
-
-
-
-/*     width:42.0625rem;
-	height:85.5625rem;
-    background: var(--form-color);
-    border-radius: 336.5px;
-    transform: rotate(45deg);
-    background-position: 125%;
-    */
