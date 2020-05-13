@@ -7,6 +7,10 @@ body{
     --form-color: #6852ED;
     --degrade: linear-gradient(to right, #6852ED, #BA43FC);
     --pink-color: #EF7171;
+    background-image: url(shape1.png);
+    background-repeat: no-repeat;
+    background-position: 196% -30.8125rem;
+
 }
 
 /* Modification sur balises */
@@ -26,7 +30,10 @@ section{
 }
 
 #comment{
-    background-color: #E1E4ED;
+    padding: 5.3125rem;
+    background-image: linear-gradient(to right, rgba(225, 228, 237, .30),rgba(225, 228, 237, .30)), url(Bg.png);
+    background-repeat: no-repeat;
+    background-size: auto, cover;
 }
 
 #comment section{
@@ -284,19 +291,18 @@ a{
     background-repeat: no-repeat;
 }
 
-/*
-.ovale{
-    width:42.0625rem;
-	height:85.5625rem;
-    background: var(--form-color);
-    border-radius: 336.5px;
-    transform: rotate(45deg);
+
+#ovale{
+    margin: 0;
+    
+
+
 }
 
 .float-right{
     float: right;
 }
-*/
+
 
 /* bordures*/
 .button{
@@ -407,3 +413,15 @@ footer a:hover{
 .b3{
     background-color: blue;
 }
+
+
+
+
+
+/*     width:42.0625rem;
+	height:85.5625rem;
+    background: var(--form-color);
+    border-radius: 336.5px;
+    transform: rotate(45deg);
+    background-position: 125%;
+    */
