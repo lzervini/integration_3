@@ -72,6 +72,11 @@ footer section:nth-child(2) li:nth-child(1){
     padding-right: 3.125rem;
 }
 
+footer p:nth-child(2){
+    margin-bottom: 3.75rem;
+
+}
+
 /* Liens */
 a{
     text-decoration: none;  
