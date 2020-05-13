@@ -63,9 +63,12 @@ footer ul{
     margin: 0
 }
 
-
 footer ul:first-child{
     padding-left: 0;
+}
+
+footer section:nth-child(2) li:nth-child(1){
+    padding-right: 3.125rem;
 }
 
 /* Liens */
