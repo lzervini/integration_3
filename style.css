@@ -18,14 +18,6 @@ a{
     text-decoration: none;  
 }
 
-nav li:hover{
-    border-top-style: solid;
-    font-weight: 800;
-    border-image:
-        var(--degrade) 100% 0 0;
-    padding-left:0;
-    margin-left: 2.0625rem;
-}
 
 /* Barre de navigation */
 span{
@@ -284,6 +276,15 @@ section{
 }
 
 /* Hover */
+nav li:hover{
+    border-top-style: solid;
+    font-weight: 800;
+    border-image:
+        var(--degrade) 100% 0 0;
+    padding-left:0;
+    margin-left: 2.0625rem;
+}
+
 .content{
     display: none;
     color: white;
@@ -310,6 +311,11 @@ button:hover{
     background: white;
     color: var(--title-color)
 }
+
+footer a:hover{
+    color: var(--pink-color);
+}
+
 
 
 /*b{
