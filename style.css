@@ -9,15 +9,53 @@ body{
     --pink-color: #EF7171;
 }
 
-.list-style-none{
-    list-style: none;
+/* Modification sur balises */
+section{
+    width: 27.25rem;
 }
 
-/* Liens */
-a{
-    text-decoration: none;  
+#comment{
+    background-color: #E1E4ED;
 }
 
+#comment section{
+    width: 46.875rem;
+}
+
+
+#getasolut section {
+    width: 20.625rem;
+    margin-left: 3.75rem;
+}
+
+
+button {
+    padding: 2px 13px;
+	margin: 3px 4px;
+	display: inline-block;
+	color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+	cursor: pointer;
+	background: #6852ed;
+	border: 2px solid #707070;
+	border-radius: 20px;
+}
+
+
+hr{
+    color: #D8D8D8;
+    width:  17.9%
+}
+
+footer ul{
+    margin: 0
+}
+
+
+footer ul:first-child{
+    padding-left: 0;
+}
 
 /* Barre de navigation */
 span{
@@ -32,7 +70,17 @@ nav p span{
 }
 
 
+
+/* Liens */
+a{
+    text-decoration: none;  
+}
+
 /* Style de texte */
+.list-style-none{
+    list-style: none;
+}
+
 .text-center{
     text-align: center;
 }
@@ -254,26 +302,16 @@ nav p span{
     margin-left: 1.875rem;
     margin-top: 1.875rem;
     width: 21.25rem;
-
 }
 
-section{
-    width: 27.25rem;
+.bloc{
+    border: 1px solid none;
+    background-color: var(--form-color);
+    border-radius: 10px;
+    padding-left: 5.1875rem;
+    padding-right: 1.875rem;
 }
 
-#comment{
-    background-color: #E1E4ED;
-}
-
-#comment section{
-    width: 46.875rem;
-}
-
-
-#getasolut section {
-    width: 20.625rem;
-    margin-left: 3.75rem;
-}
 
 /* Hover */
 nav li:hover{
@@ -318,34 +356,21 @@ footer a:hover{
 
 
 
-/*b{
+
+
+
+.b{
     background-color: red;
 }
 
 .b1{
     background-color: green;
-}*/
-
-.bloc{
-    border: 1px solid none;
-    background-color: var(--form-color);
-    border-radius: 10px;
-    padding-left: 5.1875rem;
-    padding-right: 1.875rem;
 }
 
-
-button {
-    padding: 2px 13px;
-	margin: 3px 4px;
-	display: inline-block;
-	color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-	cursor: pointer;
-	background: #6852ed;
-	border: 2px solid #707070;
-	border-radius: 20px;
+.b2{
+    background-color: yellow;
 }
 
-
+.b3{
+    background-color: blue;
+}
