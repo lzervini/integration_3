@@ -74,7 +74,16 @@ footer section:nth-child(2) li:nth-child(1){
 
 footer p:nth-child(2){
     margin-bottom: 3.75rem;
+}
 
+footer section:last-child p span:first-child{
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+footer section:last-child p span:last-child{
+    color:var(--form-color);
+    font-weight: 400;
 }
 
 /* Liens */
@@ -117,6 +126,13 @@ a{
     font-weight: 700;
     font-size: 1.25rem;
     color: var(--title-color);
+}
+
+.pop14reg{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.875rem;
+    color:#716C80;
 }
 
 .view{
