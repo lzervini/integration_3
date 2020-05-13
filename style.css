@@ -16,11 +16,13 @@ a{
     text-decoration: none;  
 }
 
-.lien:hover{
-    border-top: 3px solid var(--title-color);
-    padding-top: 31.5px;
+nav li:hover{
+    border-top-style: solid;
     font-weight: 800;
-    color: var(--title-color)
+    border-image:
+        var(--degrade) 100% 0 0;
+    padding-left:0;
+    margin-left: 2.0625rem;
 }
 
 /* Barre de navigation */
