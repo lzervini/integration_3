@@ -10,6 +10,17 @@ body{
 }
 
 /* Modification sur balises */
+span{
+    font-weight: 900;
+    color: var(--title-color);
+    margin-left: 0.4rem;
+}
+
+nav p span{
+    margin-left: 0.9375rem;
+    letter-spacing: 0.05rem;
+}
+
 section{
     width: 27.25rem;
 }
@@ -56,20 +67,6 @@ footer ul{
 footer ul:first-child{
     padding-left: 0;
 }
-
-/* Barre de navigation */
-span{
-    font-weight: 900;
-    color: var(--title-color);
-    margin-left: 0.4rem;
-}
-
-nav p span{
-    margin-left: 0.9375rem;
-    letter-spacing: 0.05rem;
-}
-
-
 
 /* Liens */
 a{
@@ -125,8 +122,9 @@ a{
     color: white;
 }
 
-.white2{
-    color: white;
+.l-h{
+    line-height: 2.1875rem;
+    
 }
 
 .tiret-viol{
@@ -148,6 +146,12 @@ a{
     font-weight: 700;
     font-size: 1.375rem;
     color: var(--title-color);
+}
+
+/*Couleurs */
+
+.white2{
+    color: white;
 }
 
 .pink{
@@ -190,6 +194,10 @@ a{
 
 .margtop156{
     margin-top: 9.75rem;
+}
+
+.margtop105{
+    margin-top: 6.5625rem;
 }
 
 /*Padding*/
