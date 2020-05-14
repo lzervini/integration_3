@@ -519,7 +519,35 @@ footer a:hover{
         display: none;
     }
 
-    
+    #section5 section{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    footer div:nth-child(2){
+        margin-top: 20px;
+    }
+
+    footer section:last-child{
+        text-align: center;
+    }
+
+    #general-footer{
+       flex-direction: column;
+    }
+
+    #contact{
+        text-align: center;
+    }
+
+    #contact ul{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #contact li{
+        padding: 0;
+    }
 }
 
 
