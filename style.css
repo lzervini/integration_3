@@ -548,6 +548,20 @@ footer a:hover{
     #contact li{
         padding: 0;
     }
+
+    #links-f{
+        text-align: center;
+        align-items: center;
+    }
+
+    #links-f div{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    hr{
+        width: 100%;
+    }
 }
 
 
