@@ -491,8 +491,18 @@ footer a:hover{
         margin-left: 33%;
     }
 
-    
+    #section4{
+        flex-wrap: wrap;
+    }
 
+    #section4 .button{
+        margin-left: 50px;
+    }
+
+    #getasolut section{
+        text-align: center;
+        margin-left:0;
+    }
 
 }
 
