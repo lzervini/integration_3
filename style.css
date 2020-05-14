@@ -614,59 +614,32 @@ footer a:hover{
 
     }
 
-
-    footer div:nth-child(2){
-        margin-top: 1.25rem;
-
-    }
-
-    footer section:last-child{
-        text-align: center;
-    }
-
     #general-footer{
        flex-direction: column;
+       align-items: center;
     }
 
-    #contact{
-        text-align: center;
-    }
-
-    #contact ul{
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    #contact li{
-        padding: 0;
-    }
-
-    #links-f{
-        text-align: center;
+    #links-f ul{
+        display : flex;
         align-items: center;
     }
 
-    #links-f div{
-        margin: 0;
-        margin-bottom: 0.625rem;
+    #links-f ul:nth-child(2){
+        padding-left: 0;
     }
 
-    hr{
-        width: 100%;
+    #listelink ul li {
+        padding-left: 2rem;
     }
 
+    #listelink{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+   footer section:last-child{
+   width: 100%;
 }
 
 
-.b{
-    background-color: blue;
-}
-.b1{
-    background-color: yellow;
-}
-.b2{
-    background-color: red;
-}
-.b3{
-    background-color: green;
-}
