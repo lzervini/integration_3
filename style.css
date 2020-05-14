@@ -294,9 +294,6 @@ a{
 
 #ovale{
     margin: 0;
-    
-
-
 }
 
 .float-right{
@@ -482,7 +479,19 @@ footer a:hover{
         text-align: center;
     }
 
+    #comment section{
+        width: 100%;
+    }
 
+    .rond{
+        width: 6.25rem;
+        height: 6.25rem;
+        border-radius: 6.25rem;
+        background: var(--form-color);
+        margin-left: 33%;
+    }
+
+    
 
 
 }
