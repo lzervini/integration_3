@@ -610,17 +610,10 @@ footer a:hover{
     }
 
     #section5 section{
-        padding-left: 0;
-        text-align: center;
-        margin-top: 3.75rem;
-        margin-bottom:2.5rem;
+         margin-left: 7.975rem;
 
     }
 
-    button{
-        border: 2px solid var(--form-color);
-
-    }
 
     footer div:nth-child(2){
         margin-top: 1.25rem;
