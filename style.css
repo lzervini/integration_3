@@ -592,41 +592,21 @@ footer a:hover{
     }
 
     .rond{
-        width: 6.25rem;
-        height: 6.25rem;
-        border-radius: 6.25rem;
-        background: var(--form-color);
-        margin-left: 33%;
+        margin-left: 41%;
     }
 
-    #section4{
-        flex-wrap: wrap;
-        margin:0;
-        width: 100%;
-        margin-top: 3.75rem;
+    #quatre-rectangles #part1{
+        justify-content: center;
     }
+
+    #quatre-rectangles #part2{
+        justify-content: center;
+    }
+
+    
 
     #section4 .button{
         margin-left: 3.125rem;
-    }
-
-    #getasolut section{
-        text-align: center;
-        margin-left:0;
-        margin-top: 3.75rem;
-
-    }
-
-    .bordure2{
-        padding: 0.5rem 0.8rem 0 1rem;
-        margin-left: 1.875rem;
-        margin-top: 1rem;
-        width:35%;
-        text-align: center;
-    }
-
-    .ovaletronque{
-        display: none;
     }
 
     #section5 section{
