@@ -10,7 +10,6 @@ body{
     background-image: url(shape1.png);
     background-repeat: no-repeat;
     background-position: 196% -30.8125rem;
-
 }
 
 /* Modification sur balises */
@@ -292,16 +291,6 @@ a{
     background-repeat: no-repeat;
 }
 
-
-#ovale{
-    margin: 0;
-}
-
-.float-right{
-    float: right;
-}
-
-
 /* bordures*/
 .button{
     border: 1px solid none;
@@ -577,68 +566,196 @@ footer a:hover{
 }
 
 @media only screen and (min-width: 768px)and (max-width: 991.98px){
-    .bordure p{
-        margin-left: 1.50rem;
+    .espace-gauche{
+        margin:1.25rem;
     }
     
+    
+    .esp-g-droite{
+        margin: 1.25rem;
+    }
+
+    .toggle_btn{
+        height: 1.875rem;
+        width: 1.875rem;
+        position: relative;
+        float: right;
+        margin-right: 10px;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+
+    .toggle_btn span{
+        height: 3px;
+        background-color:var(--title-color);
+        width: 100%;
+        position: absolute;
+        top: 30px;
+        left: 0;
+    }
+
+    .toggle_btn span:before{
+        content:'';
+        height: 0.1875rem;
+        background-color:var(--title-color);
+        width: 100%;
+        position: absolute;
+        top: -10px;
+        left: 0;
+    }
+
+
+    .toggle_btn span:after{
+        content: '';
+        height: 3px;
+        background-color:var(--title-color);
+        width: 100%;
+        position: absolute;
+        top: 0.625rem;
+        left: 0;
+    }
+
+    .menu{
+        visibility: hidden;
+    }
+
+    .margint310{
+        margin-top: 6.25rem;    
+    }
+
+    #price p:not(.avec){
+        display: none;
+    }
+
+    #price .button{
+        width: auto;
+    }
+
+    .bordure p{
+        padding-left: 18%;
+    }
+
+    .tiret-viol{
+        border-top:0;
+        margin-top: 0;
+    }
+
+    #price header{
+        padding: 0;
+        margin: 0;
+    }
+
     .bordure{
         border: 1px solid none;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.10);
         border-radius:0.625rem;
         width: 22%;
-        margin-left: 1.925rem;
+        margin-left: 2.105rem;
         text-align: center;
     }
 
+    #comment section{
+        width: 100%;
+    }
+
     .rond{
-        margin-left: 41%;
+        width: 6.25rem;
+        height: 6.25rem;
+        border-radius: 6.25rem;
+        background: var(--form-color);
+        margin-left: 42%;
     }
 
-    #quatre-rectangles #part1{
-        justify-content: center;
+    #section4{
+        flex-wrap: wrap;
+        margin:0;
+        width: 100%;
+        margin-top: 3.75rem;
     }
 
-    #quatre-rectangles #part2{
-        justify-content: center;
+    #part1{
+        margin-left: 50px;
     }
 
+    #part2{
+        margin-left: 50px;
+    }
 
     #section4 .button{
         margin-left: 3.125rem;
     }
 
-    #section5 section{
-         margin-left: 7.975rem;
+    #getasolut section{
+        text-align: center;
+        margin-left:0;
+        margin-top: 3.75rem;
 
+    }
+
+    .bordure2{
+        padding: 0.5rem 0.8rem 0 1rem;
+        margin-left: 1.875rem;
+        margin-top: 1rem;
+        width:35%;
+        text-align: center;
+    }
+
+    .ovaletronque{
+        display: none;
+    }
+
+    #section5 section{
+        padding-left: 0;
+        text-align: center;
+        margin-top: 3.75rem;
+        margin-bottom:2.5rem;
+
+    }
+
+    button{
+        border: 2px solid var(--form-color);
+
+    }
+
+    footer div:nth-child(2){
+        margin-top: 1.25rem;
+
+    }
+
+    footer section:last-child{
+        text-align: center;
     }
 
     #general-footer{
        flex-direction: column;
-       align-items: center;
     }
 
-    #links-f ul{
-        display : flex;
-        align-items: center;
+    #contact{
+        text-align: center;
     }
 
-    #links-f ul:nth-child(2){
+    #contact ul{
         padding-left: 0;
+        padding-right: 0;
     }
 
-    #listelink ul li {
-        padding-left: 2rem;
+    #contact li{
+        padding: 0;
     }
 
-    #listelink{
-        display: flex;
-        flex-direction: column;
+    #links-f{
+        text-align: center;
         align-items: center;
-   }
+    }
 
-   footer section:last-child{
-   width: 100%;
-   }
+    #links-f div{
+        margin: 0;
+        margin-bottom: 0.625rem;
+    }
+
+    hr{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px){
