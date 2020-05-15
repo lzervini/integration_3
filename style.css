@@ -421,6 +421,7 @@ footer a:hover{
     }
 
 
+
     .toggle_btn span:after{
         content: '';
         height: 3px;
@@ -436,6 +437,9 @@ footer a:hover{
         visibility: hidden;
     }
 
+    .best{
+        display: none;
+    }
     .margint310{
         margin-top: 6.25rem;    
     }
@@ -874,7 +878,7 @@ footer a:hover{
         height: 6.25rem;
         border-radius: 6.25rem;
         background: var(--form-color);
-        margin-left: 42%;
+        margin-left: 44%;
     }
 
     #section4{
