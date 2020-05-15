@@ -643,6 +643,22 @@ footer a:hover{
 }
 
 @media screen and (min-width: 992px){
+    body{
+        background-position: -74% -52.812rem;
+    }
+
+    .bordure{
+        width: 25%;
+    }
+
+    #price header p{
+        padding-left: 40px;
+    }
+
+    .rond{
+        margin-left: 44%;
+    }
     
+
 }
 
