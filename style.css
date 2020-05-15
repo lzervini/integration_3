@@ -156,7 +156,6 @@ a{
 
 .l-h{
     line-height: 2.1875rem;
-    
 }
 
 .tiret-viol{
@@ -567,7 +566,7 @@ footer a:hover{
 
 @media only screen and (min-width: 768px)and (max-width: 991.98px){
     .espace-gauche{
-        margin:1.25rem;
+        margin:0;
     }
     
     
@@ -709,6 +708,7 @@ footer a:hover{
         text-align: center;
         margin-top: 3.75rem;
         margin-bottom:2.5rem;
+        margin-left: 8.75rem;
 
     }
 
@@ -727,7 +727,8 @@ footer a:hover{
     }
 
     #general-footer{
-       flex-direction: column;
+       flex-direction: row;
+       flex-wrap: wrap;
     }
 
     #contact{
@@ -743,10 +744,16 @@ footer a:hover{
         padding: 0;
     }
 
-    #links-f{
-        text-align: center;
+    
+    #listelink{
+        display: flex;
+        flex-direction: column;
         align-items: center;
-    }
+   }
+
+   #listelink ul:nth-child(2){
+       padding-left: 0;
+   }
 
     #links-f div{
         margin: 0;
@@ -755,6 +762,10 @@ footer a:hover{
 
     hr{
         width: 100%;
+    }
+
+    footer > section{
+        margin-left: 8.75rem;
     }
 }
 
