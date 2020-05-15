@@ -603,7 +603,6 @@ footer a:hover{
         justify-content: center;
     }
 
-    
 
     #section4 .button{
         margin-left: 3.125rem;
@@ -640,6 +639,10 @@ footer a:hover{
 
    footer section:last-child{
    width: 100%;
+   }
 }
 
+@media screen and (min-width: 992px){
+    
+}
 
