@@ -663,7 +663,14 @@ footer a:hover{
         margin-left: 14.975rem;
     }
 
-    
+    #general-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
 }
+
+
 
