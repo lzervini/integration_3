@@ -530,10 +530,18 @@ footer a:hover{
     }
 
     #section4{
-        flex-wrap: wrap;
+        flex-direction: column;
         margin:0;
         width: 100%;
         margin-top: 3.75rem;
+    }
+
+    #part1{
+        flex-wrap: wrap;
+    }
+
+    #part2{
+        flex-wrap: wrap;
     }
 
     #section4 .button{
@@ -551,8 +559,8 @@ footer a:hover{
         padding: 0.5rem 0.8rem 0 1rem;
         margin-left: 1.875rem;
         margin-top: 1rem;
-        width:35%;
-        text-align: center;
+        width:70%;
+        text-align: start;
     }
 
     .ovaletronque{
