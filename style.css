@@ -471,35 +471,62 @@ footer a:hover{
         width: auto;
     }
 
-    .tiret-viol{
+    .tiret-viol{ 
         border-top:0;
         margin-top: 0;
     }
 
-    #price header{
+    #price{
         padding: 0;
         margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .dflex.around h2{
+        margin-left: 36px;
     }
 
     .bordure{
-        border: 1px solid none;
-        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.10);
-        border-radius:0.625rem;
-        width: 22%;
+        width: 62%;
         margin-left: 0.625rem;
         text-align: center;
+        margin-top:23px;
+    }
+
+    .bordure p{
+        padding-left: 34px;
+        padding-top: 0.563rem;
+    }
+
+    .bordure h2{
+        margin-left: -26px;
+    }
+
+    .txt-price{
+        margin-top:-1.562rem;
+    }
+
+    .bordure .button{
+        text-align: justify;
     }
 
     #comment section{
         width: 100%;
     }
 
+    #comment{
+        padding-left:1.25rem ;
+        padding-right: 1.25rem;
+    }
+
     .rond{
-        width: 6.25rem;
-        height: 6.25rem;
+        width: 4.25rem;
+        height: 4.25rem;
         border-radius: 6.25rem;
         background: var(--form-color);
-        margin-left: 33%;
+        margin-left: 38%;
     }
 
     #section4{
