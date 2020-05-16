@@ -572,17 +572,25 @@ footer a:hover{
         text-align: center;
         margin-top: 3.75rem;
         margin-bottom:2.5rem;
+    }
 
+    #footer1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nuni22{
+        font-size: 1.0625rem;
+        font-weight: 400;
     }
 
     button{
         border: 2px solid var(--form-color);
-
+        margin-left: -49px;
     }
 
     footer div:nth-child(2){
         margin-top: 1.25rem;
-
     }
 
     footer section:last-child{
